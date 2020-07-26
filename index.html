@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>INTERIOR</title>
+	<style type="text/css">
+
+.open-button {
+  background-color:grey;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right:74px;
+  width: 200px;
+}
+
+
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+
+.form-container input[type=text], .form-container input[type=password] {
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+
+.form-container .cancel {
+  background-color: red;
+}
+
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+		.body{
+
+			padding: 0%;
+			margin: 0%;
+			margin-top: 0%;
+			color: black;
+			background-color: white;
+		}
+  .icon-bar {
+  position: fixed;
+  top: 60%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 20px;
+}
+		.front{
+			padding: 0%;
+			margin: 0%;
+			font-size:28px;
+			background-image: url("download13.jpg");
+			background-attachment: fixed;
+			-webkit-background-clip:text;
+			-webkit-text-fill-color:transparent;
+			margin-top: -10px;
+			}
+			.marquee{
+				margin-top:-40px;
+			}
+        .container{
+			width:86%;
+			background: #ddd;
+			margin:100px;
+			margin-right: 85px;
+			display: flex;
+			justify-content: center;
+		}
+		.s1{
+			padding-left: 85px;
+		}
+		.box{
+			width: 350px;
+			height: 300px;
+			background: orange;
+			float:left;
+			margin: 0px 10px;
+		}
+		.box:hover{
+			transform: scale(1.3);
+			background:#ff800a;
+		}
+		.tab{
+			background: black;
+			width:100%;
+			height:60px;
+			color: white;
+			position: sticky;
+			top:0;
+
+
+		}
+		.tab a{
+			float: left;
+			margin:4px 4px;
+			text-align:center;
+			padding:14px 17px;
+			font-size:17px;
+			color: white;
+
+		}
+		.tab a:hover{
+			color: black;
+			background-color: white;
+		}
+		.tab ul{
+			list-style: none;
+		}
+		.login{
+			width: 300px;
+			height: 400px;
+			background-color:pink;
+			padding-top: 20px;
+			font-size: 17px;
+			top:45.5 rem;
+			left: 59rem;
+			transform: translate(-50% -50%);
+			position: absolute;
+			box-sizing: border-box;
+			padding: 70px 30px;
+		}
+		.images{
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			top: -50px;
+			left: 35%;
+			left:calc( 50% -50px);
+			position: absolute;
+		}
+		.write{
+			padding-left:6%;
+			padding-right:15%;
+
+		}
+		.slider{
+	background-image: url('https://www.officeinteriorsolutions.com/Site/media/Media/tips-tricks-office-interior-design.png');
+	width: 1153px;
+	height: 400px;
+	margin-left:85px;
+	margin-top:16px;
+
+	box-shadow: 1px;
+	background-size: 100% 100%;
+	box-shadow: 1px 2px 10px 5px white;
+    animation: slides 12s infinite;
+}
+ @keyframes slides{
+ 	0%{background-image: url('https://www.officeinteriorsolutions.com/Site/media/Media/tips-tricks-office-interior-design.png');
+
+ 	}
+ 	45%{
+ 		background-image: url('https://www.tribuzinteriors.com/tiadmin/js/kcfinder/upload/images/2(10).jpg');
+ 	
+
+ 	}
+ 	75%{
+ 		background-image: url('http://www.cuded.com/wp-content/uploads/2017/08/TV-Wall-Idea-49.jpg');
+ 	}
+ }
+		.color{
+			color: green;
+		}
+		.togglemode{
+			color: white;
+			background-color: black;
+		}
+		.togglemode .tab{
+			background-color:white;
+			color: black;
+		
+		}
+		.togglemode .tab a{
+			color: black;
+		}
+		
+	
+		.togglemode .tab a:hover{
+			color:white;
+			background-color:black;
+		}
+		
+		.togglemodebutton{
+
+			margin-top:-80px;
+			padding-top: -20px;
+			margin-left: 80%;
+			overflow: hidden;
+	        float: right;
+	        border:2px solid transparent;
+	        border-radius: 20px;
+	        background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle  at top left,#fd00da,#19d7f8 );
+	        background-origin: border-box;
+	        background-clip: content-box,border-box;
+	    }
+     .flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+.a1{
+	padding-left:40%; 
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 10px 10px 10px 64px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.sidenav a:hover {
+  background-color: #2196F3;
+  width: 50%;
+
+}
+.togglemode .sidenav a{
+	color: white;
+	background-color: black;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right:2px;
+  font-size: 50px;
+  margin-left: 110px;
+ 
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 10px;
+  float: left;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.page{
+    display: inline-block;
+    
+}
+.page a{
+    float: left;
+    color: #000;
+    padding: 8px 16px;
+}
+.page a:hover{
+    background-color: #bbb; 
+}
+.togglemode .page a{
+    color: white;
+    
+}
+		
+	</style>
+</head>
+<body>
+
+	<center>
+	<div class="front">
+	<h1>DECORATION</h1>
+    </div>
+    </center>
+    <div class="togglemodebutton">
+ <button onclick="myFunction()">Toggle dark mode</button>
+ </div>
+ <br>
+	<header>
+		<div class="marquee">
+		<marquee width="100%" loop="-1"  bgcolor="ff6699" scrollamount="8">HERE YOU FIND THE LATEST INTERIOR DESIGN EACH AND EVERY MOVEMENT</marquee>
+	</div>
+		<div class="tab">
+	
+   
+
+			<ul>
+						<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><b>&times;</b></a>
+  <br><br>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+
+
+
+				<a href="#menu"><li>MENU</li></a>
+
+				<a href="#DESIGN"><li>DESIGN</li></a>
+				<a href="#BEST OFF"><li>BEST OFF</li></a>
+				<a href="#COLOR"><li>COLOR</li></a>
+				<a href="#MATERIAL"><li>MATERIAL</li></a>
+				<a href="#INNOVATION"><li>INNOVATION</li></a>
+			</ul>
+
+		</div>
+		<div class="container">
+			<div class="box">
+				<img src="download1.1.jpg" width="100%" height="270">
+			</div>
+			<div class="box">
+				<img src="download1.2.jpg" width="100%" height="270">
+			</div>
+			<div class="box">
+				<img src="download5.1.jpg" width="100%" height="270">
+			</div>
+			<div class="box">
+				<img src="download2.1.jpg" width="100%" height="270">
+			</div>
+			<div class="box">
+				<img src="download4.1.jpg" width="100%" height="270">
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="login">
+			<img src="images.jpg" class="images"> 
+			<center><h1>login here</h1></center>
+			<form>
+				<center>
+				USERNAME:
+				<input type="text" name="" placeholder="Enter Username" size="10">
+				<br><br>
+				PASSWORD:
+				<input type="password" name="" placeholder="Enter password" size="10"><br><br>
+				<input type="SUBMIT" value="Login" >
+				<br>
+				<br>
+				<a href="#">Lost Your Account?</a>
+				<br>
+				<br>
+				<a href="#">Don't Have Any Account?</a>
+				<br><br>
+			</center>
+			</form>
+		</div>
+		<img src="interior.jpg" height="400px" width="800px" class="s1">
+	</section>
+	<div class="write">
+	<article>
+    <h3 style="font-family: 'Aclonica',sans-serif;line-height: 1.5;font-size: 20px;display: block; float: left;color: black">Interior design is the art and science of enhancing the <br>interior of a building to make people happy either<br>functionally,aesthetically or emotionally.</h3></article>
+    
+    <article><p style="display:block;float: right;line-height: 1.5;color: black">We offer our clients, a bespoke one-stop design and build service, leaving immaculate<br>finish. We are passionate about design and love exploring new methods and being<br>challenged – whether it’s creating a brand new space or re-creating a certain look at a<br>more effective price. Recognising that your requirements are diverse, we work closely<br>with you to understand your company culture or your personal lifestyle. These insights<br>guide us in our quest to create a home, office, hotel or commercial environment, which<br>is both functional and aesthetically pleasing.</p></article>
+</div>
+			
+			<div class="slider">
+	</div>
+	<button class="open-button" onclick="openForm()">SIGNUP</button>
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+   <div class="color"><center> <h1>SIGNUP</h1></center></div>
+
+     <label for="name"><b>NAME</b></label>
+    <input type="text" placeholder="Enter Name" name="name" required  size="30%">
+    <br>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required  size="30%" required>
+    <br>
+
+    <label for="psw">Password</label>
+    <input type="password" placeholder="Enter Password" name="psw" required size="30%">
+
+    <button type="submit" class="btn"><b>Sign Up</b></button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div><br>
+<hr color="red" width="70%">
+<div class=a1>
+	<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="avatar3.jpg" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Abhinav Rai</h1> 
+      <p>Computer science and Engineering</p>
+      <p>8178486066</p>
+    </div>
+  </div>
+</div>
+</div>
+<div class="icon-bar">
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="#" class="google"><i class="fa fa-google"></i></a> 
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div>
+<hr>
+<center>
+<div class="page">
+<a href="#">&laquo;</a>
+<a href="#">1</a>
+<a href="#">2</a>
+<a href="#">3</a>
+<a href="#">4</a>
+<a href="#">&raquo;</a>
+</div>
+</center>
+
+
+
+
+<script>
+	
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("togglemode");
+}
+</script>
+</body>
+</html>
